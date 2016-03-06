@@ -1,0 +1,19 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Syncthing Plasmoid
+Icon=state-sync
+Type=Service
+Keywords=syncthing;sync;
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=Joel Moberg
+X-KDE-PluginInfo-Email=joel.moberg@gmail.com
+X-KDE-PluginInfo-License=GPLv2
+X-KDE-PluginInfo-Name=com.github.joelmo.syncthing-plasmoid
+X-KDE-PluginInfo-Version=0.1
+X-KDE-PluginInfo-Website=https://github.com/joelmo/syncthing-plasmoid
+X-KDE-ServiceTypes=Plasma/Applet
+X-Plasma-NotificationArea=true
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-Plasma-RemoteLocation=
+X-KDE-PluginInfo-Category=System Information
