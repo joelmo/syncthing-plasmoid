@@ -1,4 +1,4 @@
-import QtQuick 2.2
+import QtQuick 2.0
 import QtQuick.Layouts 1.2
 import org.kde.plasma.plasmoid 2.0
 import org.kde.plasma.core 2.0 as PlasmaCore
@@ -13,6 +13,7 @@ Item {
     Plasmoid.compactRepresentation: CompactRepresentation { }
 
     Component.onCompleted: {
+        Plasmoid.setAction('openSyncthing', 'Open Syncthing', 'tag-places')
         eventsTimer.start()
         eventsRead()
     }
@@ -60,6 +61,10 @@ Item {
             }
         }
         xhr.send(null);
+    }
+
+    function openSyncthing() {
+        Qt.openUrlExternally("http://www.google.se")
     }
 
 }
